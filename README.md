@@ -1,54 +1,57 @@
-###Voici une proposition de README.md structurée, professionnelle et engageante pour votre projet de zoo sur FrameVR . Ce document est conçu pour présenter clairement votre travail à des collaborateurs ou des visiteurs.
+# 🦁 Zoo de Lille : Expérience Immersive FrameVR
 
-🦁 Zoo de Lille : Immersion Virtuelle (FrameVR)
-Bienvenue dans le dépôt du projet Zoo de Lille sur FrameVR . Cette expérience immersive transforme le navigateur web en un parc zoologique interactif, permettant aux utilisateurs de découvrir la faune mondiale à travers des environnements 3D thématiques et pédagogiques.
+![FrameVR Badge](https://img.shields.io/badge/Platform-FrameVR-blueviolet?style=for-the-badge)
+![Status Badge](https://img.shields.io/badge/Status-En%20Développement-green?style=for-the-badge)
+![License Badge](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-🌍 Aperçu du projet
-Ce projet utilise les capacités de FrameVR pour créer un espace social et éducatif. L'accent est mis sur la classification animale (Mammifères, Reptiles, Oiseaux, Vie Aquatique) via des zones visuelles distinctes et des supports d'information riches.
+Une plateforme de métavers éducative et immersive recréant les écosystèmes du **Zoo de Lille**. Ce projet utilise la réalité virtuelle (VR) pour sensibiliser à la biodiversité à travers une exploration interactive des classes animales.
 
-📍 Les Zones Thématiques
-Le zoo est divisé en quatre secteurs majeurs, chacun possédant sa propre identité visuelle et sonore :
+---
 
-La Savane Africaine (Mammifères) : Un environnement chaud aux tons dorés mettant en avant les lions, girafes et éléphants.
+## 📖 À propos du projet
 
-Le Vivarium (Reptiles) : Un espace tamisé et luxuriant pour observer les espèces à écailles et sang froid.
+Ce projet transforme l'espace virtuel **FrameVR** en un centre pédagogique dynamique. Chaque zone est conçue pour offrir une immersion sensorielle (visuelle et informative) basée sur les véritables espèces et infrastructures du Zoo de Lille.
 
-La Grande Volière (Oiseaux) : Un dôme de verdure dédié aux espèces à plumes et au vol majestueux.
+### ✨ Fonctionnalités clés
+- **Skyboxes Dynamiques** : Panoramas 360° sur mesure (Savane, Arctique, Jungle).
+- **Signalétique Interactive** : Affiches promotionnelles et cartes d'identité des espèces intégrées.
+- **Classification Pédagogique** : Zones divisées par classes biologiques (Mammifères, Reptiles, Oiseaux, Vie Aquatique).
+- **Optimisation Multi-support** : Expérience fluide sur Casques VR (Oculus), Mobiles et Navigateurs PC.
 
-L'Espace Aquatique (Vie Marine) : Une immersion sous-marine centrale sur les adaptations aquatiques des manchots et otaries.
+---
 
-🛠️ Ressources & Actifs (Actifs)
-Le projet intègre des éléments visuels haute fidélité optimisés pour la VR :
+## 🗺️ Organisation du Zoo Virtuel
 
-Skyboxes 360° : Panoramas équirectangulaires (4K) créant des horizons immersifs (Savane au soleil couchant, Arctique, Jungle).
+| Secteur | Thématique | Espèces Emblématiques | Caractéristiques |
+| :--- | :--- | :--- | :--- |
+| **Savane Africaine** | Mammifères | Lions, Girafes, Éléphants | Poils, allaitement, sang chaud |
+| **Vivarium** | Reptiles | Crocodiles, Serpents, Iguanes | Écailles, sang froid, ponte d'œufs |
+| **Grande Volière** | Oiseaux | Aras, Toucans, Perroquets | Plumes, bec, ailes et vol |
+| **Espace Aquatique** | Faune Marine | Manchots, Otaries, Requins | Nageoires, respiration aquatique |
 
-Cartes de Classe : Infographies éducatives détaillant les caractéristiques biologiques (allaitement, écailles, vol, etc.).
+---
 
-Affiches Promotionnelles : Visuels de communication pour l'engagement des visiteurs.
+## 🚀 Installation & Déploiement
 
-🚀 Configuration sur FrameVR
-Pour déployer ce projet dans votre Frame :
+Pour déployer cette expérience dans votre propre espace FrameVR :
 
-Environnement : Sélectionnez une scène spacieuse (ex : The Gallery ou Outdoor Plaza ).
+### 1. Préparation de l'espace
+- Créez une nouvelle scène sur [FrameVR.io](https://framevr.io).
+- Choisissez l'environnement de base (ex: "Outdoor Plaza").
 
-Skybox : Téléchargez l'image équirectangulaire de votre choix dans l'onglet Environment-> Background.
+### 2. Configuration de l'environnement (Skybox)
+1. Allez dans le menu **Environment** > **Background**.
+2. Téléchargez l'un des fichiers de l'archive `/assets/skyboxes/` (Ratio 2:1).
+3. Réglez la luminosité pour correspondre à l'ambiance de la zone.
 
-Éléments 2D : Placez les Cartes de Classe et les Affiches sur les murs virtuels à l'aide de l'outil Add Asset-> Image.
+### 3. Importation des Assets 2D
+- Utilisez le bouton **Add Asset** pour importer les **Cartes de Classe** et les **Affiches**.
+- **Placement** : Positionnez les cartes à l'entrée de chaque enclos virtuel pour servir de guide pédagogique.
 
-Interactivité : Ajoutez des zones de texte ou des liens web sur les affiches pour rediriger vers les fiches techniques des animaux.
+---
 
-⚙️ Spécifications Techniques
-Plateforme :FrameVR.io
+## 🛠️ Spécifications Techniques
 
-Format des Skyboxes : JPEG/PNG, Ratio 2:1 (Recommandé : 4096 x 2048 px).
-
-Optimisation : Poids des images < 3 Mo pour garantir un chargement fluide sur tous les appareils (Oculus Quest, Mobile, Desktop).
-
-👥 Crédits & Outils
-Conception Spatiale : [Votre Nom/Equipe]
-
-Génération d'Images & Contenu : Gemini / Modèles de génération d'images IA.
-
-Plateforme de diffusion : FrameVR.
-
-Note Pédagogique : Ce zoo n'est pas qu'une simple visite ; c'est un outil d'apprentissage visant à faire comprendre les différences fondamentales entre les classes d'animaux par l'observation visuelle
+- **Format des images** : JPEG (compressé) / PNG-24.
+- **Résolution Skybox** : 4096 x 2048 px (Equirectangulaire).
+- **Format Cartes/Affiches** : 1080 x 1920 px (Portrait) ou 1920 x 108
